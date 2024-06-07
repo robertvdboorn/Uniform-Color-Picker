@@ -1,0 +1,26 @@
+{
+  "type": "color-picker",
+  "displayName": "Color Picker",
+  "logoIconUrl": "https://uniform-color-picker.vercel.app/logo.png",
+  "badgeIconUrl": "https://uniform-color-picker.vercel.app/badge.png",
+  "category": "starters",
+  "baseLocationUrl": "https://uniform-color-picker.vercel.app",
+  "locations": {
+    "install": {
+      "description": [
+        "This integration adds a color picker parameter to your project."
+      ]
+    },
+
+     "canvas": {
+      "parameterTypes": [       
+        {
+          "type": "color-picker-drawer",
+          "displayName": "Parameter Color Picker with Drawer",
+          "editorUrl": "/colorPickerObjectValueEditDrawer",
+          "renderableInPropertyPanel": true
+        }
+      ]
+    }
+  }
+}
